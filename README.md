@@ -21,35 +21,35 @@ Landing page moderna desenvolvida em Angular para uma nutricionista, com foco em
 - Angular CLI
 
 ## 📦 Estrutura do Projeto
-tree
-landing-page/
-├── src/
-│ ├── app/
-│ │ ├── components/
-│ │ │ └── home/
-│ │ │ ├── home.component.ts # Lógica do componente principal
-│ │ │ ├── home.component.html # Template da landing page
-│ │ │ └── home.component.scss # Estilos específicos
-│ │ ├── app.component.ts # Componente raiz
-│ │ ├── app.component.html # Template raiz
-│ │ └── app.module.ts # Módulo principal com importações
-│ ├── assets/
-│ │ ├── images/
-│ │ │ ├── profile-image.jpg # Foto da nutricionista
-│ │ │ └── adinkra-symbol.svg # Símbolos decorativos
-│ │ └── icons/ # Ícones personalizados
-│ ├── styles/
-│ │ ├── variables.scss # Variáveis SCSS (cores, etc)
-│ │ └── styles.scss # Estilos globais
-│ ├── environments/
-│ │ ├── environment.ts # Configurações de desenvolvimento
-│ │ └── environment.prod.ts # Configurações de produção
-│ ├── index.html # HTML principal
-│ └── main.ts # Ponto de entrada da aplicação
-├── angular.json # Configurações do Angular
-├── package.json # Dependências e scripts
-├── tsconfig.json # Configurações TypeScript
-└── README.md # Documentação
+- tree
+- landing-page/
+- ├── src/
+- │ ├── app/
+- │ │ ├── components/
+- │ │ │ └── home/
+- │ │ │ ├── home.component.ts # Lógica do componente principal
+- │ │ │ ├── home.component.html # Template da landing page
+- │ │ │ └── home.component.scss # Estilos específicos
+- │ │ ├── app.component.ts # Componente raiz
+- │ │ ├── app.component.html # Template raiz
+- │ │ └── app.module.ts # Módulo principal com importações
+- │ ├── assets/
+- │ │ ├── images/
+- │ │ │ ├── profile-image.jpg # Foto da nutricionista
+- │ │ │ └── adinkra-symbol.svg # Símbolos decorativos
+- │ │ └── icons/ # Ícones personalizados
+- │ ├── styles/
+- │ │ ├── variables.scss # Variáveis SCSS (cores, etc)
+- │ │ └── styles.scss # Estilos globais
+- │ ├── environments/
+- │ │ ├── environment.ts # Configurações de desenvolvimento
+- │ │ └── environment.prod.ts # Configurações de produção
+- │ ├── index.html # HTML principal
+- │ └── main.ts # Ponto de entrada da aplicação
+- ├── angular.json # Configurações do Angular
+- ├── package.json # Dependências e scripts
+- ├── tsconfig.json # Configurações TypeScript
+- └── README.md # Documentação
 
 ### 📁 Descrição dos Diretórios
 
