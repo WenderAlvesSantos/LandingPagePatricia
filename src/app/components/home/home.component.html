@@ -65,13 +65,14 @@
   <section class="faq">
     <h2>Principais Dúvidas dos Meus Pacientes</h2>
     <div class="faq-list">
-      <div class="faq-item">
-        <h3>Qual o valor da consulta?</h3>
-        <div class="faq-content">
-          <p>Entre em contato para conhecer nossos planos personalizados.</p>
-        </div>
-      </div>
-      <!-- Mais itens FAQ aqui -->
+      <nz-collapse nzAccordion>
+        <nz-collapse-panel 
+          *ngFor="let faq of faqs" 
+          [nzHeader]="faq.question"
+          [nzActive]="faq.active">
+          <p>{{faq.answer}}</p>
+        </nz-collapse-panel>
+      </nz-collapse>
     </div>
   </section>
 

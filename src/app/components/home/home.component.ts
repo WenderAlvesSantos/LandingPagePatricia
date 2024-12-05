@@ -28,6 +28,29 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
   profileImage = '/assets/profile-image.jpg';
 
+  faqs = [
+    {
+      question: 'Qual o valor da consulta?',
+      answer: 'Entre em contato para conhecer nossos planos e valores personalizados.',
+      active: false
+    },
+    {
+      question: 'Como funciona o atendimento?',
+      answer: 'O atendimento é personalizado e inclui avaliação completa, plano alimentar individualizado e acompanhamento contínuo para garantir seus resultados.',
+      active: false
+    },
+    {
+      question: 'Qual o método de atendimento?',
+      answer: 'Oferecemos atendimento presencial em nossa clínica e também consultas online, adaptando às suas necessidades e rotina.',
+      active: false
+    },
+    {
+      question: 'Quais especialidades são atendidas?',
+      answer: 'Atendemos nutrição clínica, esportiva, comportamental e funcional, sempre com foco na saúde integral e bem-estar do paciente.',
+      active: false
+    }
+  ];
+
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
 
   ngOnInit() {
